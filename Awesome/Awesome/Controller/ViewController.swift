@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         else if imageView.image == #imageLiteral(resourceName: "dr") {
             imageView.image = #imageLiteral(resourceName: "dv")
         }
-        else imageView.image == #imageLiteral(resourceName: "dv") {
+        else {
             imageView.image = #imageLiteral(resourceName: "db")
         }
     }
